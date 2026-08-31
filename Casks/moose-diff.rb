@@ -6,8 +6,8 @@
 # hand.
 
 cask "moose-diff" do
-  version "0.1.1"
-  sha256 "77d88b2feff21e5f15606cda93d206265313c4ac78a0e0fc406dc94b8b42a2a6"
+  version "0.1.2"
+  sha256 "edc56afcf9b390f19b986dbe7d0899b5933394b8387fe2fd97684cef29392b7c"
 
   url "https://jonarcher.github.io/moose-diff/Moose-Diff-#{version}.dmg"
   name "Moose Diff"
