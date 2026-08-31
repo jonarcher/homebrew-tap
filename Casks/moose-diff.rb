@@ -6,8 +6,8 @@
 # hand.
 
 cask "moose-diff" do
-  version "0.1.0"
-  sha256 "a01b4b9c23c1d6459c6997ffb83423ab5fd045535c83c53c56fa30ca01f4c613"
+  version "0.1.1"
+  sha256 "77d88b2feff21e5f15606cda93d206265313c4ac78a0e0fc406dc94b8b42a2a6"
 
   url "https://jonarcher.github.io/moose-diff/Moose-Diff-#{version}.dmg"
   name "Moose Diff"
@@ -18,6 +18,7 @@ cask "moose-diff" do
   depends_on arch: :arm64
 
   app "Moose Diff.app"
+  binary "#{appdir}/Moose Diff.app/Contents/MacOS/moose"
 
   zap trash: [
     "~/Library/Preferences/com.jonarcher.moose.plist",
