@@ -14,7 +14,7 @@ cask "moose-diff" do
   desc "Purpose-built git diff review tool for macOS"
   homepage "https://moose-diff.jonarcher.com/"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
   depends_on arch: :arm64
 
   app "Moose Diff.app"
